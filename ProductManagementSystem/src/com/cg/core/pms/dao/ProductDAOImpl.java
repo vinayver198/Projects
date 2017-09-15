@@ -15,7 +15,8 @@ import com.cg.core.pms.service.IProductService;
 import com.cg.core.pms.util.DButil;
 
 public class ProductDAOImpl implements IProductDAO {
-
+	
+	int i = 0;
 	
 	static Logger myLogger = Logger.getLogger(ProductDAOImpl.class.getName());
 	/*
