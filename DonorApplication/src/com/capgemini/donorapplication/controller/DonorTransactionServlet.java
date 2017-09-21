@@ -58,7 +58,7 @@ public class DonorTransactionServlet extends HttpServlet {
 		DonorImplService donorService = null;
 		DonorDTO donor = null;
 		String target = "";
-
+		int i =0;
 		HttpSession session = request.getSession(true);
 		// Object creations
 		donor = new DonorDTO();
